@@ -1118,13 +1118,13 @@
 <!-- ─────────────────────────────────────────
      VOICEFLOW CHAT WIDGET
 ───────────────────────────────────────── -->
-<!--
-  <script type="text/javascript">
+
+ <script type="text/javascript">
   (function(d, t) {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
       v.onload = function() {
         window.voiceflow.chat.load({
-          verify: { projectID: '69ceb14156c13612e42273d4' },
+          verify: { projectID: '69cf85c616442e28a69b578b' },
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
           voice: {
@@ -1134,53 +1134,9 @@
       }
       v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
-</script> -->
-
- <!-- ─────────────────────────────────────────
-     Convocore CHAT WIDGET
-───────────────────────────────────────── -->
-
-  <div style="width: 0; height: 0;" id="VG_OVERLAY_CONTAINER">
-    <!-- Here is where renders the widget. -->
-</div>
-
-<!-- Remove 'defer' if you want widget to load faster (Will affect website loading) -->
-<script defer>
-    (function() {
-        window.VG_CONFIG = {
-            ID: "6L1bB7VgpUM56BmL", // YOUR AGENT ID
-            region: 'na', // YOUR ACCOUNT REGION 
-            render: 'bottom-right', // can be 'bottom-left' or 'bottom-right'
-            modalMode: true, // Set this to 'true' to open the widget in modal mode
-            stylesheets: [
-                // Base CONVOCORE CSS
-                "https://cdn.convocore.ai/vg_live_build/styles.css",
-                // Add your custom css stylesheets, Can also add relative URL ('/public/your-file.css)
-                // Want a fully branded CDN URL in this script?
-                // White Label add-on ($200/mo) replaces cdn.convocore.ai with your own URL (for example: cdn.yourcompany.com).
-                // It also includes complete custom branding across your widget experience.
-            ],
-            // THIS IS SUPPOSED TO BE CHANGED OR REMOVED.
-            // user: {
-            //     name: 'John Doe', // User's name
-            //     email: 'johndoe@gmail.com', // User's email
-            //     phone: '+1234567890', // User's phone number
-            // }
-            // Optional user data -- end
-            // **
-            // userID: 'USER_ID', // If you want to use your own user_id
-            // autostart: true, // Whether to autostart the chatbot with the proactive message
-        }
-        var VG_SCRIPT = document.createElement("script");
-        VG_SCRIPT.src = "https://cdn.convocore.ai/vg_live_build/vg_bundle.js";
-        VG_SCRIPT.defer = true; // Remove 'defer' if you want widget to load faster (Will affect website loading)
-        document.body.appendChild(VG_SCRIPT);
-    })()
 </script>
 
-<!-- ─────────────────────────────────────────
-     convocore END CHAT WIDGET
-───────────────────────────────────────── -->
+ 
   
 
 <!-- Countdown timer script -->
